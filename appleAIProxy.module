@@ -1,0 +1,18 @@
+[General]
+name = Apple Intelligence & Siri (Proxy)
+description = 将 Apple Intelligence、Siri 和私有云计算的请求通过 PROXY 规则路由。
+
+[Rule]
+# Siri and Dictation
+DOMAIN,guzzoni.apple.com,PROXY
+
+# Search services (Siri, Spotlight, etc.)
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
+
+# Private Cloud Compute
+DOMAIN,apple-relay.cloudflare.com,PROXY
+DOMAIN,apple-relay.fastly-edge.com,PROXY
+DOMAIN,cp4.cloudflare.com,PROXY
+
+# Apple Intelligence Extension
+DOMAIN,apple-relay.apple.com,PROXY

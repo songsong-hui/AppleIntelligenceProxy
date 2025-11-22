@@ -15,6 +15,8 @@ DOMAIN-SUFFIX,smoot.apple.com,PROXY
 # Private Cloud Compute
 DOMAIN,apple-relay.cloudflare.com,PROXY
 DOMAIN,apple-relay.fastly-edge.com,PROXY
+DOMAIN,apple-relay.akamaized.net
+DOMAIN,apple-relay.mask.apple-dns.net
 DOMAIN,cp4.cloudflare.com,PROXY
 
 # Apple Intelligence Extension
